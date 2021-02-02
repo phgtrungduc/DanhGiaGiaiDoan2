@@ -1,0 +1,113 @@
+.header-item {
+  margin-right: 20px;
+}
+
+#extragrid-1020-bodyWrap {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.icon-add {
+  background-image: url("images/add-order.png");
+}
+.clone-button {
+  background-image: url("images/clone-button.png");
+}
+.delete-button {
+  background-image: url("images/delete-button.png");
+}
+.edit-button {
+  background-image: url("images/edit-button.png");
+}
+.help-button {
+  background-image: url("images/help-button.png");
+}
+.refresh-button {
+  background-image: url("images/refresh-button.png");
+}
+.see-button {
+  background-image: url("images/see-button.png");
+}
+.feedback-button {
+  background-image: url("images/feedback-button.png");
+}
+.save-button {
+  background-image: url("images/save-button.png");
+}
+.pause-button {
+  background-image: url("images/pause-button.png");
+}
+.close-button {
+  background-image: url("images/close-button.png");
+}
+.import-button {
+  background-image: url("images/import-button.png");
+}
+.export-button {
+  background-image: url("images/export-button.png");
+}
+
+.merge-button {
+  background-image: url("images/merge-button.png");
+}
+.arrow-button{
+  background-image: url("images/arrow-button.png");
+}
+
+/* đổi màu button */
+.m-btn {
+  background-color: white !important;
+  outline: none;
+  border-color: #c1c1c1 !important;
+  margin: 0;
+}
+/* đổi màu text trong button */
+.m-btn .x-btn-inner-default-small {
+  color: black !important;
+}
+.m-btn-noborder {
+  border: 0 !important;
+}
+.align-center {
+  text-align: center !important;
+}
+
+/* .employee-table .x-box-inner{
+    padding: 0px 50px 0px 50px !important;
+    text-align: center!important;
+} */
+
+.right-10 {
+  margin-right: 10px;
+}
+.x-toolbar {
+  background-color: #d9d9d9;
+}
+#here input {
+  height: 10px !important;
+}
+fieldset {
+  background-color: white !important;
+}
+.x-fieldset-header-text {
+  font-weight: bold !important;
+  color: black !important;
+}
+.x-grid-row[aria-selected="true"] .x-grid-cell-inner {
+  background-color: #c1ddf1;
+  border: none;
+  outline: none;
+}
+input[readonly="readonly"]{
+  background-color: rgb(216, 216, 216);
+}
+.x-message-box{
+  z-index:20000 !important;
+}
+/* .x-grid-cell-inner
+        {
+            overflow: hidden;
+            padding: 3px 6px;
+            white-space: nowrap;
+            height: 20px;
+        } */

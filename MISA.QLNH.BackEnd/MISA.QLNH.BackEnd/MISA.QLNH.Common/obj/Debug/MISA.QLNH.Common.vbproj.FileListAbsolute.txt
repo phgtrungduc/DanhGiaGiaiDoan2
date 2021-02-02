@@ -1,0 +1,9 @@
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.Common\bin\Debug\MISA.QLNH.Common.dll
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.Common\bin\Debug\MISA.QLNH.Common.pdb
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.Common\bin\Debug\MISA.QLNH.Common.xml
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.Common\obj\Debug\MISA.QLNH.Common.Resources.resources
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.Common\obj\Debug\MISA.QLNH.Common.vbproj.GenerateResource.cache
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.Common\obj\Debug\MISA.QLNH.Common.vbproj.CoreCompileInputs.cache
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.Common\obj\Debug\MISA.QLNH.Common.dll
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.Common\obj\Debug\MISA.QLNH.Common.xml
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.Common\obj\Debug\MISA.QLNH.Common.pdb

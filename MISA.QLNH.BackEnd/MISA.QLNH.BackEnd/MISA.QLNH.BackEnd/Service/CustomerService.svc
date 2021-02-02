@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="MISA.QLNH.BackEnd.CustomerService" CodeBehind="CustomerService.svc.vb" %>

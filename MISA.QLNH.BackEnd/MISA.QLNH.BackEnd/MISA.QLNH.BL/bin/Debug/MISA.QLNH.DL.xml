@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MISA.QLNH.DL
+</name>
+</assembly>
+<members>
+<member name="T:MISA.QLNH.DL.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MISA.QLNH.DL.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MISA.QLNH.DL.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:MISA.QLNH.DL.BaseDL`1.ExecuteReader(System.String,System.Object)">
+ <summary>
+ Sử dụng excute reader lấy dữ liệu từ DB
+ </summary>
+ <param name="storedName">Tên store</param>
+ <param name="param">object truyền vào chứa các tham số cho store</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.BaseDL`1.InsertOne(`0)">
+ <summary>
+ Thêm một bản ghi vào DB
+ </summary>
+ <param name="obj">object truyền từ client lên để thêm vào DB</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.BaseDL`1.FilterData(System.Int32,System.Int32,System.String)">
+ <summary>
+ Thực hiện việc filter dữ liệu
+ </summary>
+ <param name="start">bắt đầu lấy từ bản ghi</param>
+ <param name="limit">lấy tối đa số bản ghi từ vị trí bắt đầu</param>
+ <param name="where">điều kiện lấy</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.BaseDL`1.UpdateOne(`0)">
+ <summary>
+ Update một bản ghi trong DB
+ </summary>
+ <param name="obj">đối tượng truyền lên để update</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.BaseDL`1.DeleteOne(System.String)">
+ <summary>
+ Xóa một bản ghi 
+ </summary>
+ <param name="id">id của bản ghi cần xóa</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.BaseDL`1.GetMaxCode">
+ <summary>
+ Lấy ra giá trị code lớn nhất ứng với 1 bảng trong DB
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.BaseDL`1.UpdateAutoId">
+ <summary>
+ Update giá trị code lớn nhất trong DB của một bảng
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.BaseDL`1.GetTypeName(System.Type)">
+ <summary>
+ Lấy ra kiểu dữ liệu của một đối tượng
+ </summary>
+ <param name="sampleType">đối tượng cần lấy ra kiểu dữ liệu</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.CustomerDL.GetCustomerByCode(System.String)">
+ <summary>
+ Tìm kiếm khách hàng theo mã khách hàng
+ </summary>
+ <param name="customerCode">mã khách hàng</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.CustomerDL.GetCustomerById(System.String)">
+ <summary>
+ Tìm kiếm khách hàng theo ID
+ </summary>
+ <param name="customerId">ID khách hàng</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.EmployeeDL.GetEmployeeByCode(System.String)">
+ <summary>
+ Tìm kiếm nhân viên theo mã nhân viên
+ </summary>
+ <param name="employeeCode">mã nhân viên</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.DL.EmployeeDL.GetEmployeeById(System.String)">
+ <summary>
+ Tìm kiếm nhân viên theo Id
+ </summary>
+ <param name="employeeId">ID nhân viên</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

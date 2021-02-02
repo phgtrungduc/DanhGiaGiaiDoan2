@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MISA.QLNH.BL
+</name>
+</assembly>
+<members>
+<member name="T:MISA.QLNH.BL.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MISA.QLNH.BL.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MISA.QLNH.BL.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:MISA.QLNH.BL.BaseBL`1.PreSaveData(`0)">
+ <summary>
+ Thực hiện Trước khi thêm hoặc update dữ liệu trong DB
+ </summary>
+ <param name="obj">đối tượng cần kiểm tra trước khi save</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BL.BaseBL`1.AfterSaveData(`0)">
+ <summary>
+ Thực hiện sau khi update hoặc thêm vào DB
+ </summary>
+ <param name="obj"></param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BL.BaseBL`1.GetAll(System.Int32,System.Int32,System.String)">
+ <summary>
+ Lấy ra tất cả các bản ghi
+ </summary>
+ <param name="start">Bản ghi bắt đầu</param>
+ <param name="limit">Số bản ghi tối đa từ vị trí bắt đầu</param>
+ <param name="where">Điều kiện lấy</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BL.BaseBL`1.SaveData(`0)">
+ <summary>
+ Thực hiện thêm hoặc update data trong DB
+ </summary>
+ <param name="obj">Đối tượng truyền lên để thực hiện thêm hoặc update</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BL.BaseBL`1.DeleteOne(System.String)">
+ <summary>
+ Xóa một bản ghi trong DB
+ </summary>
+ <param name="id">id của bản ghi cần xóa</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BL.BaseBL`1.GetMaxCode">
+ <summary>
+ Lấy ra mã lớn nhất trong DB ứng với 1 bảng
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BL.BaseBL`1.FilterData(System.Int32,System.Int32,System.String)">
+ <summary>
+ filter dữ liệu
+ </summary>
+ <param name="start">Bản ghi bắt đầu</param>
+ <param name="limit">Số bản ghi tối đa từ vị trí bắt đầu</param>
+ <param name="where">Điều kiện lấy</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

@@ -1,0 +1,10 @@
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.CommonService\bin\Debug\MISA.QLNH.CommonService.dll
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.CommonService\bin\Debug\MISA.QLNH.CommonService.pdb
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.CommonService\bin\Debug\MISA.QLNH.CommonService.xml
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.CommonService\obj\Debug\MISA.QLNH.CommonService.vbprojAssemblyReference.cache
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.CommonService\obj\Debug\MISA.QLNH.CommonService.Resources.resources
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.CommonService\obj\Debug\MISA.QLNH.CommonService.vbproj.GenerateResource.cache
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.CommonService\obj\Debug\MISA.QLNH.CommonService.vbproj.CoreCompileInputs.cache
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.CommonService\obj\Debug\MISA.QLNH.CommonService.dll
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.CommonService\obj\Debug\MISA.QLNH.CommonService.xml
+C:\Users\internet\source\repos\MISA.QLNH.BackEnd\MISA.QLNH.CommonService\obj\Debug\MISA.QLNH.CommonService.pdb

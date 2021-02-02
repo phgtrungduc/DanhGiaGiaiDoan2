@@ -1,0 +1,190 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MISA.QLNH.BackEnd
+</name>
+</assembly>
+<members>
+<member name="T:MISA.QLNH.BackEnd.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:MISA.QLNH.BackEnd.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:MISA.QLNH.BackEnd.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:MISA.QLNH.BackEnd.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:MISA.QLNH.BackEnd.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:MISA.QLNH.BackEnd.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="M:MISA.QLNH.BackEnd.CustomerService.GetCustomers(System.Int32,System.Int32,System.String,System.String)">
+ <summary>
+ Lấy ra nhân viên
+ </summary>
+ <param name="start">Vị trí bắt đầu</param>
+ <param name="limit">Số lượng bản ghi tối đa từ vị trí bắt đầu</param>
+ <param name="code">mã khách hàng</param>
+ <param name="where">Điều kiện lấy </param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BackEnd.CustomerService.GetCustomerById(System.String)">
+ <summary>
+ TÌm kiếm khách hàng theo Id
+ </summary>
+ <param name="id">Id khách hàng</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BackEnd.CustomerService.GetMaxCode">
+ <summary>
+ Lấy ra giá trị mã khách hàng lớn nhất
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BackEnd.EmployeeService.GetEmployees(System.Int32,System.Int32,System.String,System.String)">
+ <summary>
+ Lấy ra nhân viên
+ </summary>
+ <param name="start">Vị trí bắt đầu</param>
+ <param name="limit">Số lượng bản ghi tối đa từ vị trí bắt đầu</param>
+ <param name="code">mã nhân viên</param>
+ <param name="where">Điều kiện lấy </param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BackEnd.EmployeeService.GetEmployeeById(System.String)">
+ <summary>
+ TÌm kiếm nhân viên theo Id
+ </summary>
+ <param name="id">Id nhân viên</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BackEnd.EmployeeService.SaveEmployee(MISA.QLNH.BO.Employee)">
+ <summary>
+ thực hiện thêm hoặc update nhân viên
+ </summary>
+ <param name="employee">object nhân viên cần thêm</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BackEnd.EmployeeService.DeleteEmployee(System.String)">
+ <summary>
+ Xóa nhân viên 
+ </summary>
+ <param name="id">id nhân viên cần xóa</param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BackEnd.EmployeeService.GetMaxCode">
+ <summary>
+ Lấy ra giá trị mã nhân viên lớn nhất
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BackEnd.EmployeeService.FilterEmployee(System.Int32,System.Int32,System.String)">
+ <summary>
+ filter nhân viên
+ </summary>
+ <param name="start">Vị trí bắt đầu</param>
+ <param name="limit">Số lượng bản ghi tối đa từ vị trí bắt đầu</param>
+ <param name="where">Điều kiện lấy </param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BackEnd.RepositoryService.GetRepository(System.Int32,System.Int32,System.String,System.String)">
+ <summary>
+ Lấy ra kho
+ </summary>
+ <param name="start">Vị trí bắt đầu</param>
+ <param name="limit">Số lượng bản ghi tối đa từ vị trí bắt đầu</param>
+ <param name="code">mã kho</param>
+ <param name="where">Điều kiện lấy </param>
+ <returns></returns>
+</member>
+<member name="M:MISA.QLNH.BackEnd.RepositoryService.SaveRepository(MISA.QLNH.BO.Repository)">
+ <summary>
+ thực hiện thêm hoặc update kho
+ </summary>
+ <param name="repository">object kho cần thêm</param>
+ <returns></returns>
+</member>
+<member name="F:MISA.QLNH.BackEnd.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MISA.QLNH.BackEnd.Site_Mobile._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MISA.QLNH.BackEnd.Site_Mobile._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MISA.QLNH.BackEnd.Site_Mobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MISA.QLNH.BackEnd.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MISA.QLNH.BackEnd.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MISA.QLNH.BackEnd.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

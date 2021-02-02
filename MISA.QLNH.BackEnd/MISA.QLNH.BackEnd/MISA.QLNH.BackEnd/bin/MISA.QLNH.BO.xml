@@ -1,0 +1,278 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MISA.QLNH.BO
+</name>
+</assembly>
+<members>
+<member name="T:MISA.QLNH.BO.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MISA.QLNH.BO.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MISA.QLNH.BO.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:MISA.QLNH.BO.AutoId.TableName">
+ <summary>
+ Ten Bang
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.AutoId.PreFix">
+ <summary>
+ prefix
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.AutoId.Value">
+ <summary>
+ gia tri lon nhat tinh den hien tai
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.CustomerId">
+ <summary>
+ ID khach hang
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.CustomerCode">
+ <summary>
+ Ma khach hang
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.FullName">
+ <summary>
+ Ten day du
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.MemberCardCode">
+ <summary>
+ Ma the thanh vien
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.DateOfBirth">
+ <summary>
+ Ngay sinh
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.Gender">
+ <summary>
+ Gioi tinh
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.Email">
+ <summary>
+ Email
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.PhoneNumber">
+ <summary>
+ DT di dong
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.CompanyName">
+ <summary>
+ Ten cong ty
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.CompanyTaxCode">
+ <summary>
+ Ma so thue
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Customer.Address">
+ <summary>
+ Dia chi
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.EmployeeId">
+ <summary>
+ Id khach hang
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.EmployeeCode">
+ <summary>
+ Ma khach hang
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.FullName">
+ <summary>
+ Ten day du
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.Gender">
+ <summary>
+ Gioi tinh
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.DateOfBirth">
+ <summary>
+ Ngay thang nam sinh
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.Address">
+ <summary>
+ Dia chi
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.Email">
+ <summary>
+ Email
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.PhoneHomeNumber">
+ <summary>
+ So dien thoai nha rieng
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.PhoneNumber">
+ <summary>
+ SO dien thoai di dong
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.IdentityNumber">
+ <summary>
+ So CMND/The can cuoc
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.IdentityDate">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.IdentityPlace">
+ <summary>
+ Ngay cap CMND/Can cuoc
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.JoinDate">
+ <summary>
+ Noi cap CMND/Can cuoc
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.Salary">
+ <summary>
+ Luong
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.WorkStatus">
+ <summary>
+ Tinh trang cong viec
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.Nationality">
+ <summary>
+ Quoc gia 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.City">
+ <summary>
+ Tinh/Thanh Pho
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.District">
+ <summary>
+ Quan/Huyen
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Employee.Ward">
+ <summary>
+ Xa/Phuong
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.BaseEntity.EditMode">
+ <summary>
+ Trạng thái object
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.BaseEntity.CreatedDate">
+ <summary>
+ Ngày tạo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.BaseEntity.CreateBy">
+ <summary>
+ Người tạo
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.BaseEntity.ModifiedDate">
+ <summary>
+ Ngày sửa
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.BaseEntity.ModifiedBy">
+ <summary>
+ Người sửa
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Repository.RepositoryId">
+ <summary>
+ ID kho
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Repository.RepositoryCode">
+ <summary>
+ mã kho
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Repository.RepositoryName">
+ <summary>
+ Tên kho
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:MISA.QLNH.BO.Repository.Address">
+ <summary>
+ Địa chỉ kho
+ </summary>
+ <returns></returns>
+</member>
+</members>
+</doc>
